@@ -1,0 +1,109 @@
+{
+    "host_central": "localhost",
+    "port_central": 10641,
+    "host_server_1": "localhost",
+    "port_server_1": 10642,
+    "host_server_2": "localhost",
+    "port_server_2": 10643,
+    
+    "outputs_1": [
+        {
+            "tag": "semaforo_1_pino_1",
+            "gpio": 9
+        },
+        {
+            "tag": "semaforo_1_pino_2",
+            "gpio": 11
+        },
+        {
+            "tag": "semaforo_2_pino_1",
+            "gpio": 5
+        },
+        {
+            "tag": "semaforo_2_pino_2",
+            "gpio": 6
+        },
+        {
+            "tag": "buzzer",
+            "gpio": 17
+        }       
+    ],
+
+    "outputs_2": [
+        {
+            "tag": "semaforo_1_pino_1",
+            "gpio": 10
+        },
+        {
+            "tag": "semaforo_1_pino_2",
+            "gpio": 8
+        },
+        {
+            "tag": "semaforo_2_pino_1",
+            "gpio": 1
+        },
+        {
+            "tag": "semaforo_2_pino_2",
+            "gpio": 18
+        },
+        {
+            "tag": "buzzer",
+            "gpio": 21
+        }
+    ],
+
+    "inputs_1":[
+        {
+            "tag": "botao_pedestre_1",
+            "gpio": 13
+        },
+        {
+            "tag": "botao_pedestre_2",
+            "gpio": 19
+        },
+        {
+            "tag": "sensor_via_auxiliar_1",
+            "gpio": 26
+        },
+        {
+            "tag": "sensor_via_auxiliar_2",
+            "gpio": 22
+        },
+        {
+            "tag": "sensor_via_principal_1",
+            "gpio": 0
+        },
+        {
+            "tag": "sensor_via_principal_2",
+            "gpio": 27
+        }
+
+    ],
+
+    "inputs_2": [
+        {
+            "tag": "botao_pedestre_1",
+            "gpio": 23
+        },
+        {
+            "tag": "botao_pedestre_2",
+            "gpio": 24
+        },
+        {
+            "tag": "sensor_via_auxiliar_1",
+            "gpio": 25
+        },
+        {
+            "tag": "sensor_via_auxiliar_2",
+            "gpio": 12
+        },
+        {
+            "tag": "sensor_via_principal_1",
+            "gpio": 16
+        },
+        {
+            "tag": "sensor_via_principal_2",
+            "gpio": 20
+        }
+    ]
+}
